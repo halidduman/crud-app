@@ -4,6 +4,7 @@ import { detecIcon, detecType, setStorage } from "./helpers.js";
 const form = document.querySelector("form");
 const list = document.querySelector("ul");
 
+
 //! Olay İzleyicileri
 form.addEventListener("submit", handleSubmit);
 list.addEventListener("click", handleClick);

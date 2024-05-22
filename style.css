@@ -15,15 +15,16 @@ aside {
   z-index: 10000;
 }
 .sidebar {
-  background:rgba(0, 0, 0, 0.33);
-  height: 90vh;
-  border-radius: 10px 10px 0px 0px;
+
+  background:rgb(0, 0, 0);
+  height: 106vh;
   padding: 20px;
+  transform: translate(-20px,0px);
   width: 250px;
   color: #fff;
   display: flex;
   flex-direction: column;
-  margin-top: 80px;
+
   margin-bottom: 10px;
   transition: all 0.5s;
 }
@@ -31,6 +32,7 @@ aside {
 background-color: #000000;
 }
 .sidebar h1 {
+  margin-top: 12%;
   text-align: center;
   border-radius: 10px;
   padding: 5px;
@@ -65,14 +67,14 @@ form button {
   outline: none;
   padding: 6px;
   border-radius: 10px;
-  background: black;
+  background-color: rgb(43, 75, 255);
   color: #fff;
   font-weight: bold;
-  transition:  s;
+  transition:  0.5s;
 }
 
 .sidebar:hover form button{
-  background-color: rgb(43, 75, 255);
+  background-color: rgb(191, 201, 255);
 }
 /*! Liste Alanı */
 ul {
@@ -98,18 +100,18 @@ ul::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
 li {
-  background: #a5a5a5;
+  background: #1990ff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
   border-radius: 10px;
   position: relative;
-  transition: color 0.5s;
+  transition: all 0.5s;
 }
 
 li:hover{
-  background-color: #1990ff;
+  background-color: #64afff;
 }
 
 li div {
@@ -139,6 +141,7 @@ li #delete {
 li #delete:hover {
   background: rgba(46, 46, 46, 0.5);
   color: red;
+  cursor: pointer;
 }
 li #fly {
   font-size: 13px;
@@ -154,6 +157,7 @@ li #fly {
   transition: all 0.3s;
 }
 li #fly:hover {
+  cursor: pointer;
   background: rgba(46, 46, 46, 0.5);
   color: rgb(255, 255, 255);
 }
