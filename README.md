@@ -2,6 +2,8 @@
 
 ![Notlar Haritası](images/ana-gosrel.png)
 
+# [Web Sitesini Ziyaret Et](https://notlar-haritasi.netlify.app)
+
 Bu proje, belirli konumları not alarak işaretleyebileceğiniz ve hızlı erişim sağlayabileceğiniz bir web uygulamasıdır. Uygulama, bir harita üzerinde çeşitli ikonlarla (Park, İş, Ev, Gezilecek Yerler) konum işaretlemeleri yapmanıza ve bu işaretlemelerle ilgili notlar almanıza olanak tanır.
 
 ## Özellikler
