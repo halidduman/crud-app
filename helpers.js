@@ -22,7 +22,7 @@ export const detecType = (type) => {
   
   var carIcon = L.icon({
     iconUrl: "car.png",
-    iconSize: [50, 50],
+    iconSize: [55, 50],
   });
   var homeIcon = L.icon({
     iconUrl: "home-marker.png",
