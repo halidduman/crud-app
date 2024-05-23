@@ -21,19 +21,19 @@ export const detecType = (type) => {
   };
   
   var carIcon = L.icon({
-    iconUrl: "car.png",
+    iconUrl: "images/car.png",
     iconSize: [55, 50],
   });
   var homeIcon = L.icon({
-    iconUrl: "home-marker.png",
+    iconUrl: "images/home-marker.png",
     iconSize: [50, 50],
   });
   var jobIcon = L.icon({
-    iconUrl: "job.png",
+    iconUrl: "images/job.png",
     iconSize: [50, 50 ],
   });
   var visitIcon = L.icon({
-    iconUrl: "visit.png",
+    iconUrl: "images/visit.png",
     iconSize: [50, 55],
   });
   

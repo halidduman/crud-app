@@ -168,3 +168,91 @@ li #fly:hover {
 #map {
   height: 100vh;
 }
+
+
+@media screen and (max-width: 768px) {
+  aside {
+    transform: translate(0px,427px);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    max-height: 30vh; /* Ekran yüksekliğinin maksimum %80'i kadar */
+    overflow-y: auto; /* İçeriğin aşağı kaydırılabilmesi için */
+    background-color: #1990ff;
+    z-index: 1000; /* Haritanın üzerinde olması için z-index */
+    transition: 0.5s;
+  }
+
+  .sidebar {
+    transform: translate(0.0%);
+    margin: auto  !important;
+    background-color: #1990ff;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+
+  aside:hover{
+    background-color: #000000;
+  }
+  .sidebar h1 {
+    display: none; /* Başlık mobilde görünmeyecek */
+  }
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  form .field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  form .field input,
+  form .field select {
+    width: 100%;
+    max-width: 250px; /* Maksimum genişlik */
+  }
+  form button {
+    width: 100%;
+    max-width: 250px; /* Maksimum genişlik */
+  }
+  ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin-top: 10px;
+  }
+  ul li {
+    width: 100%;
+    max-width: 250px; /* Maksimum genişlik */
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #1990ff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul li div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  ul li div p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+  }
+  ul li div p span {
+    font-weight: bold;
+  }
+}
