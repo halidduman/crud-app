@@ -1,3 +1,7 @@
+window.onload = function() {
+  alert("GPS'inizin açık olduğundan emin olun, bu işlem birkaç saniye sürebilir. Halid Duman");
+};
+
 //* Tipi analiz edip ona göre fonksiyonun çağrıldığı yere
 //* tipe denk gelen açıklamayı gönderir.
 export const detecType = (type) => {

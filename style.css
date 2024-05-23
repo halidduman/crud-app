@@ -45,6 +45,19 @@ background-color: #000000;
   border-bottom: 1px solid white;
 }
 
+.sidebar h2 {
+  display: none;
+  margin-top: 12%;
+  text-align: center;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 25px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
 /*! Form Alanı */
 form {
   display: none;
@@ -172,7 +185,7 @@ li #fly:hover {
 
 @media screen and (max-width: 768px) {
   aside {
-    transform: translate(0px,427px);
+    transform: translate(0px,233%);
     position: fixed;
     left: 0;
     bottom: 0;
@@ -199,6 +212,10 @@ li #fly:hover {
   }
   .sidebar h1 {
     display: none; /* Başlık mobilde görünmeyecek */
+  }
+  .sidebar h2 {
+    display:inline-block; /* Başlık mobilde görünmeyecek */
+    margin-top: 0px;
   }
   form {
     width: 100%;
